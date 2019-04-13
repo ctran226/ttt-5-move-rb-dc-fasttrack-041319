@@ -15,5 +15,3 @@ def move(array, index, character="X")
   array[index] = character
   return array
 end
-
-puts move(["", "", ""], 2, "X")
